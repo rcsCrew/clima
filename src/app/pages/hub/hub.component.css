@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Garante que o contêiner ocupe toda a altura da viewport */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background: rgb(20, 18, 20);
+  border-radius: 15px;
+}
+
+#input-container {
+  margin-top: 10px;
+}
+
+#input-container input {
+  padding: 6px 6px;
+  border-radius: 8px 0px 0px 8px;
+  background: transparent;
+  border: solid 1px white;
+}
+
+#input-container #searchBtn {
+  padding: 6px;
+  border-radius: 0px 6px 6px 0px;
+  border: solid 1px white;
+  background: transparent;
+  color: white;
+}
+#input-container #searchBtn:hover{
+  background: white;
+  color: black;
+  transition: 0.6s;
+}
+
+.res {
+  margin-top: 40px;
+}
